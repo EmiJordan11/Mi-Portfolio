@@ -41,7 +41,7 @@ function App() {
         </div>
       </main>
 
-      <section className='mx-[10vw] h-[30vh]'>
+      <section className='mx-[10vw] h-[80vh]'>
         <div className='flex gap-3 text-3xl font-bold'>
           <FaUser />
           <h2> Sobre Mí</h2>
