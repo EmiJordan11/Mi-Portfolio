@@ -4,9 +4,9 @@ import { techCategories } from "../data/techCategories";
 
 export const Skills = () => {
     return (
-        <section className='h-[80vh] w-[75vw] m-auto'>
-            <div className='flex flex-col gap-3 text-3xl'>
-                <div className='flex gap-3 font-bold'>
+        <section className='w-[75vw] m-auto mb-[60px]'>
+            <div className='flex flex-col gap-3'>
+                <div className='flex gap-3 font-bold text-3xl'>
                     <FaTools />
                     <h2 className='mb-2'> Habilidades y Tecnologías</h2>
                 </div>

@@ -17,7 +17,7 @@ export const Presentation = () => {
                     <p className='text-7xl'>👋 Hola, soy</p>
                     <p className='text-7xl'>Emiliano Jordan</p>
                     <p className='text-xl'>
-                        Desarrollador Full Stack apasionado por crear soluciones eficientes y escalables, combinando backend sólido con interfaces atractivas y funcionales
+                        Estudiante avanzado de Ingeniería en Sistemas, especializado en el Desarrollo Back-End y en el Análisis de Datos
                     </p>
                 </div>
                 <div className='flex gap-2.5'>
@@ -31,7 +31,7 @@ export const Presentation = () => {
             </div>
 
             <div>
-                <img src="/avatar.png" alt="Avatar Emiliano Jordan" className='w-5xl' />
+                <img src="/avatar.png" alt="Avatar Emiliano Jordan" className='w-3xl' />
             </div>
         </main>
     )

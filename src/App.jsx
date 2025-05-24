@@ -11,6 +11,7 @@ import { techCategories } from './data/techCategories'
 import { FaTools } from "react-icons/fa";
 import { Skills } from './views/Skills'
 import { Presentation } from './views/Presentation'
+import { Projects } from './views/Projects'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <div className='w-[80vw] mx-auto'>
         <Presentation />
         <Skills />
+        <Projects />
       </div>
     </>
   )
