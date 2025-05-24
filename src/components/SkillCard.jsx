@@ -1,4 +1,4 @@
-import { skills } from "../assets/skills"
+import { skills } from "../data/skills"
 import { Badge } from "./Badge"
 
 skills
