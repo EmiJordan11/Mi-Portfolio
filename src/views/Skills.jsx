@@ -22,7 +22,7 @@ export const Skills = () => {
         
                       }
                     </ul> */}
-                <div className='grid grid-cols-2 grid-rows-2 gap-4'>
+                <div className='grid grid-cols-2 grid-rows-2 gap-5'>
                     {
                         techCategories.map((value, i) => {
                             return (

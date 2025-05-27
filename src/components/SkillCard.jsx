@@ -5,7 +5,7 @@ import { Badge } from "./Badge"
 export const SkillCard = ({title, bg}) => {
     return (
         <>
-            <article className={` ${bg} rounded-2xl p-3`}>
+            <article className={` ${bg} rounded-2xl p-3 transform ease duration-300 hover:scale-[1.025] `}>
                 <h3 className="mb-3 text-2xl">{title}</h3>
                 <div className="flex flex-wrap gap-2">
                     {
