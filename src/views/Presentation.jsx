@@ -4,7 +4,7 @@ import { SocialItem } from "../components/SocialItem"
 
 export const Presentation = () => {
     return (
-        <main className='h-[85vh] flex items-center justify-around'>
+        <main className='w-[75vw] mx-auto h-[85vh] flex items-center justify-around'>
             <div className='flex flex-col gap-4'>
                 <div className='flex gap-2 text-4xl'>
                     {

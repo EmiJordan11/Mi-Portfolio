@@ -10,19 +10,8 @@ export const Skills = () => {
                     <FaTools />
                     <h2> Habilidades y Tecnologías</h2>
                 </div>
-                {/* <ul className='flex justify-center text-xl text-nowrap bg-[#655593] w-min m-auto rounded-[12px]'>
-                      {
-                        ["Todo", "Desarrollo FullStack", "Análisis de datos"].map((value, i) => {
-                          return (
-                            <ButtonSkills key={i} id={i} isActive={activeButton == i} onClick={setActiveButton}>
-                              {value}
-                            </ButtonSkills>
-                          )
-                        })
-        
-                      }
-                    </ul> */}
-                <div className='grid grid-cols-2 grid-rows-2 gap-5'>
+
+                <div className='w-[65vw] mx-auto grid grid-cols-2 grid-rows-2 gap-5'>
                     {
                         techCategories.map((value, i) => {
                             return (

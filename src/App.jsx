@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <Header />
-      <div className='w-[75vw] mx-auto'>
-        <Presentation />
+      <Presentation />
+      <div className='w-[70vw] mx-auto'>
         <Skills />
         <Projects />
         <Experience />
