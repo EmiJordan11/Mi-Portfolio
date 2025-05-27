@@ -3,6 +3,7 @@ import css from '../assets/icons/css.svg'
 import javascript from '../assets/icons/javascript.svg'
 import react from '../assets/icons/react.svg'
 import tailwind from '../assets/icons/tailwindcss.svg'
+import node from '../assets/icons/nodejs.svg'
 import java from '../assets/icons/java.svg'
 import spring from '../assets/icons/spring.svg'
 import mysql from '../assets/icons/mysql.svg'
@@ -26,7 +27,6 @@ export const skillsData = {
         icon: html,
         tag: "FrontEnd",
         bg: "bg-[#af371c]"
-        // bg: "bg-[#ff876c]"
     },
     CSS: {
         name: "CSS",
@@ -63,6 +63,12 @@ export const skillsData = {
         icon: spring,
         tag: "BackEnd",
         bg: "bg-[#255e26]"
+    },
+    NODEJS: {
+        name: "Node.js",
+        icon: node,
+        tag: "BackEnd",
+        bg: "bg-[#0a4058]"
     },
     MYSQL: {
         name: "MySQL",

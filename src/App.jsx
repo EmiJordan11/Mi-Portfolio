@@ -6,6 +6,7 @@ import { Skills } from './views/Skills'
 import { Presentation } from './views/Presentation'
 import { Projects } from './views/Projects'
 import { AboutMe } from './views/AboutMe'
+import { Experience } from './views/Experience'
 
 function App() {
 
@@ -14,10 +15,11 @@ function App() {
   return (
     <>
       <Header />
-      <div className='w-[80vw] mx-auto'>
+      <div className='w-[75vw] mx-auto'>
         <Presentation />
         <Skills />
         <Projects />
+        <Experience />
         <AboutMe />
       </div>
     </>
