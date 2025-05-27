@@ -1,6 +1,7 @@
 import spotinsights from '/spotinsights.png'
 import potenciarSolidario from '/potenciar-solidario2.png'
 import forohub from '/forohub.png'
+import layt from '/Layt.png'
 
 
 export const projectsData = [
@@ -33,15 +34,13 @@ export const projectsData = [
             github: 'https://github.com/EmiJordan11/ForoHub'
         }
     },
-    // {
-    //     img: forohub,
-    //     title: 'dou',
-    //     description: 'API REST para un foro',
-    //     techs: ['JS', 'POWERBI', 'EXCEL', 'MYSQL'],
-    //     links:[
-    //         {
-    //             github: ''
-    //         }
-    //     ]
-    // }
+    {
+        img: layt,
+        title: 'Layt International',
+        description: 'Análisis de producción enfocado en la cantidad producida, productos devueltos y motivos de devolución, para detectar ineficiencias y mejorar la calidad operativa.',
+        techs: ['EXCEL', 'POWERBI'],
+        links:{
+            github: 'https://github.com/EmiJordan11/Dashboard-Layt-International'
+        }
+    }
 ]
