@@ -1,5 +1,4 @@
 import { LuCodeXml } from "react-icons/lu";
-import { ProjectCard } from "../components/ProjectCard";
 import { Carousel } from "../components/Carousel";
 
 export const Projects=()=>{
