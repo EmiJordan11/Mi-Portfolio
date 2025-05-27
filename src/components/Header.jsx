@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { NavItem } from "./NavItem"
 
 export const Header = () => {
 
@@ -36,27 +37,11 @@ export const Header = () => {
             <p>Emiliano <span className="text-[#808080]">Jordan</span></p>
             <nav className="text-base">
                 <ul className="flex gap-3">
-                    <li className="relative group hover:cursor-pointer">
-                        <a href="#">Inicio</a>
-                        <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </li>
-                    <li className="relative group hover:cursor-pointer">
-                        <a href="#skills">Habilidades</a>
-                        <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </li>
-                    <li className="relative group hover:cursor-pointer">
-                        <a href="#projects">Proyectos</a>
-                        <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </li>
-                    <li className="relative group hover:cursor-pointer">
-                        <a href="#experience">Experiencia</a>
-                        <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </li>
-                    <li className="relative group hover:cursor-pointer">
-                        <a href="#about">Sobre Mi</a>
-                        <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </li>
-                    
+                    <NavItem id={'#'} >Inicio</NavItem>
+                    <NavItem id={'#experience'} >Experiencia</NavItem>
+                    <NavItem id={'#skills'} >Habilidades</NavItem>
+                    <NavItem id={'#projects'} >Projectos</NavItem>
+                    <NavItem id={'#about'} >Sobre Mí</NavItem>
                 </ul>
             </nav>
         </header>
