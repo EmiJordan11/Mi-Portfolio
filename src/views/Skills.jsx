@@ -6,9 +6,9 @@ export const Skills = () => {
     return (
         <section className='w-[75vw] m-auto mb-[60px]'>
             <div className='flex flex-col gap-3'>
-                <div className='flex gap-3 font-bold text-3xl'>
+                <div className='flex gap-3 font-bold text-3xl mb-4'>
                     <FaTools />
-                    <h2 className='mb-2'> Habilidades y Tecnologías</h2>
+                    <h2> Habilidades y Tecnologías</h2>
                 </div>
                 {/* <ul className='flex justify-center text-xl text-nowrap bg-[#655593] w-min m-auto rounded-[12px]'>
                       {

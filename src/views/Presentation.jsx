@@ -6,7 +6,7 @@ export const Presentation = () => {
     return (
         <main className='h-[85vh] flex items-center justify-around'>
             <div className='flex flex-col gap-4'>
-                <div className='flex gap-2 text-3xl'>
+                <div className='flex gap-2 text-4xl'>
                     {
                         socialData.map((item, index) => (
                             <SocialItem icon={item.icon} link={item.link} key={index} />

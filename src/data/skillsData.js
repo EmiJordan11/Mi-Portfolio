@@ -20,66 +20,67 @@ import render from '../assets/icons/render.svg'
 
 
 
-export const skills = {
+export const skillsData = {
     HTML: {
         name: "HTML",
         icon: html,
         tag: "FrontEnd",
-        bg: "bg-[#FF9E7C]"
+        bg: "bg-[#af371c]"
+        // bg: "bg-[#ff876c]"
     },
     CSS: {
         name: "CSS",
         icon: css,
         tag: "FrontEnd",
-        bg: "bg-[#D5C7FF]"
+        bg: "bg-[#0c4c7a]"
     },
     JS: {
         name: "JavaScript",
         icon: javascript,
         tag: "FrontEnd",
-        bg: "bg-[#4A6FA5]"
+        bg: "bg-[#726f09]"
     },
     REACT: {
         name: "React",
         icon: react,
         tag: "FrontEnd",
-        bg: "bg-[#A8D1FF]"
+        bg: "bg-[#19202c]"
     },
     TAILWIND: {
         name: "Tailwind CSS",
         icon: tailwind,
         tag: "FrontEnd",
-        bg: "bg-[#A2E3C4]"
+        bg: "bg-[#0a4058]"
     },
     JAVA: {
         name: "Java",
         icon: java,
         tag: "BackEnd",
-        bg: "bg-[#3C486B]"
+        bg: "bg-[#19202c]"
     },
     SPRING: {
         name: "Spring",
         icon: spring,
         tag: "BackEnd",
-        bg: "bg-[#99B78D]"
+        bg: "bg-[#255e26]"
     },
     MYSQL: {
         name: "MySQL",
         icon: mysql,
         tag: "BackEnd",
-        bg: "bg-[#E4C170]"
+        bg: "bg-[#186271]"
     },
     POSTGRESQL: {
         name: "PostgreSQL",
         icon: postgresql,
         tag: "BackEnd",
-        bg: "bg-[#6699CC]"
+        bg: "bg-[#142c4b]"
     },
     SUPABASE: {
         name: "Supabase",
         icon: supabase,
         tag: "BackEnd",
-        bg: "bg-[#A8BFA2]"
+        bg: "bg-[#19202c]"
     },
     EXCEL: {
         name: "Excel",
@@ -91,19 +92,19 @@ export const skills = {
         name: "Google Sheets",
         icon: sheets,
         tag: "Análisis de Datos",
-        bg: "bg-[#86B487]"
+        bg: "bg-[#0D7C47]"
     },
     POWERBI: {
         name: "Power BI",
         icon: powerbi,
         tag: "Análisis de Datos",
-        bg: "bg-[#C2A35E]"
+        bg: "bg-[#757710]"
     },
     LOOKER: {
         name: "Looker Studio",
         icon: looker,
         tag: "Análisis de Datos",
-        bg: "bg-[#92A8D1]"
+        bg: "bg-[#1D2B53]"
     },
     GIT: {
         name: "Git",
