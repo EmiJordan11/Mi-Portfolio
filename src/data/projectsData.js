@@ -1,6 +1,6 @@
 import spotinsights from '/spotinsights.png'
-import potenciarSolidario from '/potenciar-solidario.png'
-import forohub from '/badge-forohub.png'
+import potenciarSolidario from '/potenciar-solidario2.png'
+import forohub from '/forohub.png'
 
 
 export const projectsData = [

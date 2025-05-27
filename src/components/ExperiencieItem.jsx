@@ -4,7 +4,7 @@ import { Badge } from "./Badge"
 
 export const ExperienceItem = ({ date, title, description, skills }) => {
     return (
-        <li class="mb-10 ms-4">
+        <li class="mb-10 ms-4 w-[90%]">
             <div class="absolute w-3 h-3 bg-white rounded-full mt-1.5 -start-1.5 border border-white "></div>
             <time class="mb-1 text-sm font-normal leading-none text-[#ae876f]">{date}</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
