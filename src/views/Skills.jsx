@@ -1,15 +1,14 @@
 import { FaTools } from "react-icons/fa";
 import { SkillCard } from "../components/SkillCard";
 import { techCategories } from "../data/techCategories";
+import { SectionTitle } from "../components/SectionTitle";
+import { Section } from "../components/Section";
 
 export const Skills = () => {
     return (
-        <section id="skills" className='mb-[60px] scroll-mt-[66px]'>
+        <Section id="skills">
             <div className='flex flex-col gap-3'>
-                <div className='flex gap-3 font-bold text-3xl mb-4'>
-                    <FaTools />
-                    <h2> Habilidades y Tecnologías</h2>
-                </div>
+                <SectionTitle icon={FaTools}>Habilidades y Tecnologías </SectionTitle>
 
                 <div className='w-[65vw] mx-auto grid grid-cols-2 grid-rows-2 gap-5'>
                     {
@@ -23,6 +22,6 @@ export const Skills = () => {
 
                 </div>
             </div>
-        </section>
+        </Section>
     )
 }
