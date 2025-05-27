@@ -17,7 +17,7 @@ export const Presentation = () => {
                     <p className='text-7xl'>👋 Hola, soy</p>
                     <p className='text-7xl'>Emiliano Jordan</p>
                     <p className='text-xl'>
-                        Estudiante avanzado de Ingeniería en Sistemas, especializado en el Desarrollo Back-End y en el Análisis de Datos
+                        Estudiante avanzado de Ingeniería en Sistemas, especializado en el Desarrollo de Software y en el Análisis de Datos
                     </p>
                 </div>
                 <div className='flex gap-2.5'>

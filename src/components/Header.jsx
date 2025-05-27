@@ -27,7 +27,7 @@ export const Header = () => {
     return (
         <header
             className={
-                `fixed w-[100vw] pl-[10vw] pr-[11vw] flex items-center justify-between py-3 text-white font-bold text-2xl transition-all duration-300 z-[99999] ` +
+                `fixed w-[100vw] h-14 pl-[10vw] pr-[11vw] flex items-center justify-between py-3 text-white font-bold text-2xl transition-all duration-300 z-[99999] ` +
                 (scrolled
                     ? bgHover
                     : "")
@@ -37,23 +37,23 @@ export const Header = () => {
             <nav className="text-base">
                 <ul className="flex gap-3">
                     <li className="relative group hover:cursor-pointer">
-                        Inicio
+                        <a href="#">Inicio</a>
                         <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     <li className="relative group hover:cursor-pointer">
-                        Habilidades
+                        <a href="#skills">Habilidades</a>
                         <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     <li className="relative group hover:cursor-pointer">
-                        Proyectos
+                        <a href="#projects">Proyectos</a>
                         <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     <li className="relative group hover:cursor-pointer">
-                        Experiencia
+                        <a href="#">Experiencia</a>
                         <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     <li className="relative group hover:cursor-pointer">
-                        Sobre Mi
+                        <a href="#about">Sobre Mi</a>
                         <span class="absolute left-0 bottom-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </li>
                     

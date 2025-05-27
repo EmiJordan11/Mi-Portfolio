@@ -2,7 +2,7 @@ import { FaUser } from "react-icons/fa"
 
 export const AboutMe = ()=>{
     return (
-        <section className="w-[75vw] mx-auto mb-[60px]">
+        <section id="about" className="w-[75vw] mx-auto mb-[60px] scroll-mt-[66px]">
             <div className="flex items-center gap-3 font-bold text-3xl mb-4">
                 <FaUser />
                 <h2>Sobre Mi</h2>
