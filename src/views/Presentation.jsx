@@ -4,9 +4,18 @@ import { SocialItem } from "../components/SocialItem"
 
 export const Presentation = () => {
     return (
-        <main className='w-[75vw] mx-auto h-[85vh] flex items-center justify-around'>
+        <main className='
+            mx-auto flex items-center 
+            lg:w-[75vw] lg:h-[85vh] lg:justify-around
+            md:h-[65vh]
+            xs:w-[90vw] h-[65vh]
+        '>
             <div className='flex flex-col gap-4'>
-                <div className='flex gap-2 text-4xl'>
+                <div className='
+                    flex gap-2 
+                    lg:text-4xl
+                    md:text-3xl
+                '>
                     {
                         socialData.map((item, index) => (
                             <SocialItem icon={item.icon} link={item.link} key={index} />
@@ -14,12 +23,18 @@ export const Presentation = () => {
                     }
                 </div>
                 <div>
-                    <p className='text-7xl flex gap-2'>
-                        <img src="/mano-saludando.svg" alt="" className="w-[70px]" />
+                    <p className='
+                        flex gap-2 items-center
+                        xl:text-7xl
+                        lg:text-6xl
+                        md:text-5xl
+                        xs:text-2xl
+                    '>
+                        <img src="/mano-saludando.svg" alt="" className="lg:w-[70px] md:w-[60px]" />
                         Hola, soy
                     </p>
-                    <p className='text-7xl'>Emiliano Jordan</p>
-                    <p className='text-xl'>
+                    <p className='xl:text-7xl lg:text-6xl md:text-5xl xs:text-2xl'>Emiliano Jordan</p>
+                    <p className='xl:text-xl lg:text-lg md:text-base xs:text-xs'>
                         Estudiante avanzado de Ingeniería en Sistemas, especializado en el Desarrollo de Software y en el Análisis de Datos
                     </p>
                 </div>
@@ -30,7 +45,7 @@ export const Presentation = () => {
             </div>
 
             <div>
-                <img src="/avatar.png" alt="Avatar Emiliano Jordan" className='w-3xl' />
+                <img src="/avatar.png" alt="Avatar Emiliano Jordan" className='lg:w-3xl md:w-xl xs:w-[420px]' />
             </div>
         </main>
     )
@@ -43,6 +58,9 @@ const ButtonPresentation = ({children})=>{
                 border-2 border-white rounded-full cursor-pointer p-3 bg-[#ffffff0d]
                 transition ease duration-300 
                 hover:bg-[#ea7c22] hover:scale-105
+
+                md:text-base
+                xs:text-[0.625rem]
             "
         >
             {children}

@@ -10,7 +10,12 @@ export const Skills = () => {
             <div className='flex flex-col gap-3'>
                 <SectionTitle icon={FaTools}>Habilidades y Tecnologías </SectionTitle>
 
-                <div className='w-[65vw] mx-auto grid grid-cols-2 grid-rows-2 gap-5'>
+                <div className='
+                    mx-auto grid gap-5
+                    lg:grid-cols-2 lg:grid-rows-2 
+                    md:grid-cols-1 md:grid-rows-4 md:w-[65vw]
+                    xs:w-[75vw]
+                '>
                     {
                         techCategories.map((value, i) => {
                             return (

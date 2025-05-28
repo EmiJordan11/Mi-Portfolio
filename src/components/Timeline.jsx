@@ -3,7 +3,7 @@ import { ExperienceItem } from "./ExperiencieItem"
 
 export const Timeline = () => {
     return (
-        <ol class="w-[65vw] mx-auto  relative border-s-2 border-gray-400">
+        <ol class="mx-auto  relative border-s-2 border-gray-400 md:w-[65vw] xs:w-[80vw]">
             
             {
                 experienceData.map((experience, index)=>{

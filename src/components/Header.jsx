@@ -27,20 +27,31 @@ export const Header = () => {
 
     return (
         <header
-            className={
-                `fixed w-[100vw] h-14 pl-[10vw] pr-[11vw] flex items-center justify-between py-3 text-white font-bold text-2xl transition-all duration-300 z-[99999] ` +
+            className={`
+                fixed w-[100vw] font-bold py-3 transition-all duration-300 z-[99999] flex items-center justify-between
+                lg:h-14 lg:pl-[10vw] lg:pr-[11vw]
+                md:h-14  md:px-5 md:text-2xl
+                xs:text-xs xs:px-4
+                ` +
                 (scrolled
                     ? bgHover
                     : "")
             }
         >
-            <p>Emiliano <span className="text-[#808080]">Jordan</span></p>
-            <nav className="text-base">
+            <p className="
+
+            ">
+                Emiliano <span className="text-[#808080]">Jordan</span>
+            </p>
+            <nav className="
+                md:text-base
+                xs:text-xs
+            ">
                 <ul className="flex gap-3">
                     <NavItem id={'#'} >Inicio</NavItem>
                     <NavItem id={'#experience'} >Experiencia</NavItem>
                     <NavItem id={'#skills'} >Habilidades</NavItem>
-                    <NavItem id={'#projects'} >Projectos</NavItem>
+                    <NavItem id={'#projects'} >Proyectos</NavItem>
                     <NavItem id={'#about'} >Sobre Mí</NavItem>
                 </ul>
             </nav>

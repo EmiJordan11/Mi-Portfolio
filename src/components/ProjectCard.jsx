@@ -7,9 +7,13 @@ import { TfiWorld } from "react-icons/tfi";
 
 export const ProjectCard = ({ project }) => {
     return (
-        <article className="border-none w-[430px] h-[490px] bg-black/30 rounded-2xl flex flex-col mx-auto">
+        <article className="
+            border-none bg-black/30 rounded-2xl flex flex-col mx-auto
+            md:w-[400px] md:h-[500px]
+            xs:w-[320px] xs:h-[450px]
+        ">
             <img src={project.img} alt="Imagen Proyecto"
-                className="rounded-2xl h-[220px] object-cover"
+                className="rounded-2xl md:h-[220px] xs:h-[150px] object-cover"
             />
 
             <div className="p-3 flex flex-col gap-3">

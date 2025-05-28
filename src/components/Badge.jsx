@@ -1,6 +1,6 @@
 
 
-export const Badge  = ({skill, bg= "bg-black/25", height = "h-11", fontSize = "text-base", widhtImg="w-5"})=>{
+export const Badge  = ({skill, bg= "bg-black/25", height = "md:h-11 xs:h-8", fontSize = "md:text-base xs:text-xs", widhtImg="md:w-5 xs:w-3"})=>{
 
 
     return (
