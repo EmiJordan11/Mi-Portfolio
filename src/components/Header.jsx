@@ -33,11 +33,6 @@ export const Header = () => {
                 max-sm:px-4 max-sm:text-xs max-sm:h-10
                 max-xs:justify-center
                 ` +
-                // fixed w-[100vw] font-bold py-3 transition-all duration-300 z-[99999] flex items-center justify-between
-                // xs:text-xs xs:px-4
-                // lg:h-14 lg:pl-[10vw] lg:pr-[11vw]
-                // md:h-14  md:px-5 md:text-2xl
-                // ` +
                 (scrolled
                     ? bgHover
                     : "")
@@ -49,8 +44,9 @@ export const Header = () => {
             <nav className="
                 text-base
                 max-md:text-xs
+                max-xs:text-sm
             ">
-                <ul className="flex gap-3">
+                <ul className="flex gap-3 ">
                     <NavItem id={'#'} >Inicio</NavItem>
                     <NavItem id={'#experience'} >Experiencia</NavItem>
                     <NavItem id={'#skills'} >Habilidades</NavItem>
