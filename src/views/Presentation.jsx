@@ -39,8 +39,12 @@ export const Presentation = () => {
                     </p>
                 </div>
                 <div className='flex gap-3'>
-                    <ButtonPresentation> Contáctame</ButtonPresentation>
-                    <ButtonPresentation> Descarga mi CV</ButtonPresentation>
+                    <a href="/docs/CV - Emiliano Jordan.pdf" download>
+                        <ButtonPresentation> Descarga mi CV</ButtonPresentation>
+                    </a>
+                    <a href="https://www.linkedin.com/in/emiliano-jordan/details/certifications/" target="_blank">
+                        <ButtonPresentation> Mira mis Certificaciones</ButtonPresentation>
+                    </a>
                 </div>
             </div>
 
@@ -55,12 +59,12 @@ const ButtonPresentation = ({children})=>{
     return (
         <button
             className="
-                border-2 border-white rounded-full cursor-pointer p-3 bg-[#ffffff0d]
+                border-2 border-white rounded-full cursor-pointer bg-[#ffffff0d]
                 transition ease duration-300 
                 hover:bg-[#ea7c22] hover:scale-105
 
-                md:text-base
-                xs:text-[0.625rem]
+                md:text-base md:p-3
+                xs:text-[0.625rem] xs:p-2
             "
         >
             {children}

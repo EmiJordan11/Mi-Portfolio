@@ -11,8 +11,6 @@ import { Footer } from './components/Footer'
 
 function App() {
 
-  const [activeButton, setActiveButton] = useState(0)
-
   return (
     <>
       <Header />

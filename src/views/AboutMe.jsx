@@ -6,8 +6,8 @@ export const AboutMe = ()=>{
     return (
         <Section id="about" className="mb-[60px] scroll-mt-[66px]">
             <SectionTitle icon={FaUser}>Sobre Mí</SectionTitle>
-            <div className="flex md:w-[65vw] xs:w-[75vw] mx-auto items-center">
-                <div className="flex flex-col gap-4 md:text-base xs:text-sm">
+            <div className="flex md:w-[65vw] xs:w-[75vw] mx-auto">
+                <div className="flex flex-col gap-4 md:text-base xs:text-sm mt-3">
                     <p>
                         Mi nombre es Emiliano Jordan, tengo 21 años y actualmente estoy en cuarto año de Ingenería en Sistemas de la UTN (Universidad Tecnológica Nacional).
                     </p>
