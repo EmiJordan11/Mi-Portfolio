@@ -1,7 +1,7 @@
-import spotinsights from '/spotinsights.png'
-import potenciarSolidario from '/potenciar-solidario2.png'
-import forohub from '/forohub.png'
-import layt from '/Layt.png'
+import spotinsights from '/projects/spotinsights.png'
+import potenciarSolidario from '/projects/potenciar-solidario.png'
+import forohub from '/projects/forohub.png'
+import layt from '/projects/Layt.png'
 
 
 export const projectsData = [
