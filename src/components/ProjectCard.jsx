@@ -8,17 +8,22 @@ import { TfiWorld } from "react-icons/tfi";
 export const ProjectCard = ({ project }) => {
     return (
         <article className="
+            border-none bg-black/30 rounded-2xl flex flex-col mx-auto w-[400px] md:h-[500px]
+            max-md:w-[320px] max-md:h-[450px]
+            max-xs:w-[300px]
+        ">
+        {/* <article className="
             border-none bg-black/30 rounded-2xl flex flex-col mx-auto
             md:w-[400px] md:h-[500px]
             xs:w-[320px] xs:h-[450px]
-        ">
+        "> */}
             <img src={project.img} alt="Imagen Proyecto"
-                className="rounded-2xl md:h-[220px] xs:h-[150px] object-cover"
+                className="rounded-2xl h-[220px] max-md:h-[150px] object-cover"
             />
 
             <div className="p-3 flex flex-col gap-3">
                 <h3 className="text-2xl">{project.title}</h3>
-                <p className="text-sm">{project.description}</p>
+                <p className="text-sm max-xs:text-xs">{project.description}</p>
 
             </div>
 
@@ -63,28 +68,3 @@ export const ProjectCard = ({ project }) => {
         </article>
     )
 }
-
-
-// export const ProjectCard = ({img, title, description, techs}) => {
-//     return (
-//         <article className="border-none w-[350px] h-[420px] bg-black/30 rounded-2xl">
-//             {
-//                 techs.map((value, index)=>{
-//                     if(value in skillsData){
-//                         return(
-//                             <Badge  />
-//                         )
-//                     }
-//                 })
-//             }
-//             <img src={img} alt="Imagen Proyecto"
-//                 className="rounded-2xl h-[200px] object-cover"
-//             />
-//             <div className="p-3 flex flex-col gap-3">
-//                 <h3 className="text-2xl">{title}</h3>
-//                 <p className="text-sm">{description}</p>
-//             </div>
-
-//         </article>
-//     )
-// }

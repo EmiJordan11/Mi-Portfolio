@@ -11,10 +11,9 @@ export const Skills = () => {
                 <SectionTitle icon={FaTools}>Habilidades y Tecnologías </SectionTitle>
 
                 <div className='
-                    mx-auto grid gap-5
-                    lg:grid-cols-2 lg:grid-rows-2 
-                    md:grid-cols-1 md:grid-rows-4 md:w-[65vw]
-                    xs:w-[75vw]
+                    mx-auto grid gap-5 grid-cols-2 grid-rows-2 w-[65vw]
+                    max-lg:grid-cols-1 max-lg:grid-rows-4
+                    max-md:w-[75vw]
                 '>
                     {
                         techCategories.map((value, i) => {

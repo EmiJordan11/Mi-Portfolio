@@ -23,7 +23,7 @@ export const Carousel = () => {
         ]
     }
     return (
-        <div className="slider-container md:w-[65vw] xs:w-[75vw] mx-auto">
+        <div className="slider-container mx-auto w-[65vw] max-md:w-[75vw]">
             <Slider {...settings}>
                 {projectsData.map((value, index) => (
                     <div>

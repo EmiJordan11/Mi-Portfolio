@@ -6,11 +6,11 @@ export const Footer = () =>{
         <footer className="w-full p-8 flex justify-between text-base bg-[#0e1523]">
             <div>
                 <p>© 2025 Emiliano Jordan</p>
-                <p className="text-sm md:w-[100%] xs:w-[70%]">Estudiante de Ing en Sistemas | Desarrollador de Software | Analista de datos</p>
+                <p className="text-sm w-[100%] max-md:w-[70%] max-xs:text-xs">Estudiante de Ing en Sistemas | Desarrollador de Software | Analista de datos</p>
             </div>
 
             <div className="flex flex-col items-center">
-                <p className="text-xl">Contacto</p>
+                <p className="text-xl max-xs:text-base">Contacto</p>
                 <div className="flex gap-3 text-3xl">
                     {
                         socialData.map((item, index)=>{

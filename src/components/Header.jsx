@@ -28,24 +28,27 @@ export const Header = () => {
     return (
         <header
             className={`
-                fixed w-[100vw] font-bold py-3 transition-all duration-300 z-[99999] flex items-center justify-between
-                lg:h-14 lg:pl-[10vw] lg:pr-[11vw]
-                md:h-14  md:px-5 md:text-2xl
-                xs:text-xs xs:px-4
+                fixed w-[100vw] h-14 text-2xl font-bold py-3 pl-[10vw] pr-[11vw] transition-all duration-300 z-[99999] flex items-center justify-between
+                max-lg:px-5 
+                max-sm:px-4 max-sm:text-xs max-sm:h-10
+                max-xs:justify-center
                 ` +
+                // fixed w-[100vw] font-bold py-3 transition-all duration-300 z-[99999] flex items-center justify-between
+                // xs:text-xs xs:px-4
+                // lg:h-14 lg:pl-[10vw] lg:pr-[11vw]
+                // md:h-14  md:px-5 md:text-2xl
+                // ` +
                 (scrolled
                     ? bgHover
                     : "")
             }
         >
-            <p className="
-
-            ">
+            <p className="max-xs:hidden">
                 Emiliano <span className="text-[#808080]">Jordan</span>
             </p>
             <nav className="
-                md:text-base
-                xs:text-xs
+                text-base
+                max-md:text-xs
             ">
                 <ul className="flex gap-3">
                     <NavItem id={'#'} >Inicio</NavItem>
