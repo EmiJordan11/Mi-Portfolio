@@ -4,3 +4,14 @@
 @theme {
   --font-onest: "Onest", "sans-serif";
 }
+
+/* Slick Carousel overrides for equal height cards */
+.slider-container .slick-track {
+  display: flex !important;
+}
+.slider-container .slick-slide {
+  height: inherit !important;
+}
+.slider-container .slick-slide > div {
+  height: 100%;
+}
